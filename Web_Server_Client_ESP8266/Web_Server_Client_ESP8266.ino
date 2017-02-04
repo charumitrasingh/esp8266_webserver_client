@@ -27,15 +27,15 @@
 ESP8266WebServer server;
 
 // Define the ID and password of your Wi-Fi network from esp8288 will connect.
-const char* ssid = "Singh's";
-const char* password = "2k0o05vsD";
+const char* ssid = "Your Wifi SSID";
+const char* password = "Your Wifi Password";
 
 //ESP8266 will communicate his own network with IP, getway & subnet.
 const char* mySsid = "SSID broadcast by esp8266";
 
 
 // IP gateway & subnet mask for ESP8266 
-IPAddress ip(192,168,111,114);
+IPAddress ip(192,168,***,***);
 IPAddress gateway(192,168,111,115);
 IPAddress subnet(255,255,255,0);
 
